@@ -1,0 +1,95 @@
+.eight{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: rgb(49,109,195);
+}
+
+.eight .eight2 img{
+    -moz-box-shadow: 8px 8px 20px #777777;
+    -webkit-box-shadow: 8px 8px 20px #777777;
+    box-shadow: 8px 8px 20px #777777;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+    .eight .eight1 img{
+        width: 3em;
+    }
+
+    .eight .eight2{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 30px;
+    }
+
+    .eight .eight2 img{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .eight .eight1 img{
+        width: 2em;
+    }
+
+    .eight .eight2 img{
+        width: 80%;
+        padding: 7px;
+    }
+}
+
+.nine{
+    background-color: black;
+    color: rgb(212, 212, 212);
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.nine td img{
+    width: 15px;
+}
+
+.nine .nine3 img{
+    width: 24px;
+    padding: 7px;
+    background-color: rgb(49,109,195);
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+    .nine{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nine div{
+        padding-left: 20px;
+    }
+
+    .nine .nine3 img{
+        margin: 15px;
+        padding: 9px;
+    }
+}
+
+.ten{
+    background-color: rgb(49,109,195);
+    color: white;
+    height: 40px;
+    position: relative;
+    bottom: 26px;
+}
+
+.ten h5{
+    position: relative;
+    bottom: 8px;
+    padding-left: 50px;
+}

@@ -1,0 +1,186 @@
+.five{
+    background-color: royalblue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px){
+    .five{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+
+    .five img{
+        width: 50px;
+    }
+
+    .five h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .five{
+        padding-bottom: 20px;
+    }
+    
+    .five img{
+        width: 40px;
+    }
+}
+
+.six{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(247,248,250);
+    position: relative;
+    bottom: 22px;
+    color: rgb(49,109,195);
+    padding-top: 10px;
+}
+
+.six .div{
+    background-color: white;
+    border-radius: 20px;
+    -moz-box-shadow: 8px 8px 20px #777777;
+    -webkit-box-shadow: 8px 8px 20px #777777;
+    box-shadow: 8px 8px 20px #777777;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+    .six .sixbottom1,.sixbottom2{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .six .logo{
+        width: 3em;
+    }
+
+    .six .div{
+        width: 300px;
+        padding-top: 10px;
+    }
+
+    .six h1{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .six .logo{
+        width: 2em;
+    }
+
+    .six h1{
+        font-size: 25px;
+    }
+
+    .six .div{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .six .div img{
+        width: 50px;
+        padding-top: 10px;
+    }
+
+    .six .div h2{
+        padding-bottom: 8px;
+    }
+}
+
+.seven{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+.seven h1,h2{
+    color: rgb(49,109,195);
+}
+
+.seven h1{
+    padding-bottom: 5px;
+}
+
+.seven .seven1 img,h5{
+    display: inline-block;
+}
+
+.seven .seven1{
+    background-color: rgb(247,248,250);
+    width: 225px;
+    color: rgb(49,109,195);
+    margin-top: 25px;
+    border-radius: 20px;
+    padding-left: 30px;
+    -moz-box-shadow: 8px 8px 20px #777777;
+    -webkit-box-shadow: 8px 8px 20px #777777;
+    box-shadow: 8px 8px 20px #777777;
+    cursor: pointer;
+}
+
+.seven .events p{
+    color: gray;
+}
+
+@media screen and (min-width: 1000px){
+    .seven{
+        display: flex;
+    }
+
+    .seven .div1,.div2{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+    .seven .seven0{
+        width: 2800px;
+        margin-left: 80px;
+    }
+
+    .seven .events{
+        margin-right: 110px;
+        margin-left: 30px;
+        text-align: justify;
+    }
+
+    .seven .seven1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .seven h1,h2{
+        text-align: center;
+    }
+
+    .seven h1{
+        font-size: 18px;
+    }
+
+    .seven .seven1{
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 270px;
+        font-size: 23px;
+    }
+
+    .seven p{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .seven h5{
+        padding-left: 20px;
+    }
+}

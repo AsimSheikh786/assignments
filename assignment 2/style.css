@@ -1,0 +1,39 @@
+body{
+    background-color: #f4f4f4;
+}
+
+
+.heading{
+    color: mediumslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumslateblue;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+#thankyou{
+    color: green;
+}
+
+
+#successfully{
+    color: purple;
+}
+
+
+.submit{
+    margin: 150px;
+}
+
+#name{
+    color: mediumpurple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
