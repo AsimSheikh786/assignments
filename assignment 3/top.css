@@ -93,6 +93,7 @@ body{
     padding: 10px;
     border-radius: 20px;
     font-weight: bold;
+    transition: 0.8s;
 }
 
 @media screen and (min-width: 1000px){
@@ -133,8 +134,8 @@ body{
     }
 
     .two ul{
-        padding-right: 20px;
-        padding-left: 60px;
+        padding-right: 30px;
+        padding-left: 40px;
     }
 }
 
