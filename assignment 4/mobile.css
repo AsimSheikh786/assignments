@@ -1,0 +1,282 @@
+/* -------------------------HOME PAGE------------------------- */
+/* -------------------------HOME PAGE------------------------- */
+
+@media only screen and (max-width: 768px){
+    img{
+        width: 20px;
+    }
+    
+    .homepage{
+        background-image: url(img/mobile\ background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 667px;
+        width: 100%;
+        background-position-y: -20px;
+    }
+
+    .header h1{
+        color: rgb(214, 21, 31);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .header ul{
+        list-style-type: none;
+        padding-top: 17px;
+    }
+
+    .nav{
+        text-align: center;
+    }
+
+    .header li{
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .header li:hover{
+        border-bottom: rgb(214, 21, 31) solid 1px;
+        color: rgb(214, 21, 31);
+        /* border-radius: 5px; */
+    }
+
+    .header #menu{
+        border-bottom: orange solid 1px;
+        
+    }
+
+    .header #menu:hover{
+        border-color: rgb(214, 21, 31);
+    }
+
+    .section1{
+        float: right;
+        position: relative;
+        top: 175px;
+        padding-right: 20px;
+        
+    }
+
+    .section1 h1{
+        font-size: 20px;
+    }
+
+    .section1 button{
+        border: none;
+        background-color: rgb(214, 21, 31);
+        color: white;
+        font-size: 9px;
+        padding: 8px;
+        font-weight: bold;
+        padding-left: 17px;
+        padding-right: 17px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .footer{
+        background-color: rgb(214, 21, 31);
+        color: white;
+        font-size: 10px;
+        padding-left: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+/* -------------------------SERVICES------------------------- */
+/* -------------------------SERVICES------------------------- */
+
+@media only screen and (max-width: 768px){
+    .services{
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .services h6{
+        color: gray;
+    }
+    
+    .services .playcard{
+        border: gray 1px solid;
+        box-shadow: 5px 5px 10px gray;
+        width: 200px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .services .playcard .image{
+        text-align: center;
+    }
+
+    .services .playcard .image img{
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .services .playcard h3{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard .text{
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .services .playcard h2{
+        padding-top: 5px;
+    }
+
+    .services .playcard h6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .services h1{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard h6 img{
+        width: 6px;
+    }
+
+    .services .playcard h6{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard:hover{
+        border: rgb(214, 21, 31) solid 2px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+/* -------------------------PROJECTS------------------------- */
+/* -------------------------PROJECTS------------------------- */
+
+@media only screen and (max-width: 768px){
+    .projects{
+        background-color: rgb(214, 21, 31);
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .projects1{
+        background-color: rgb(231, 42, 52);
+        width: 60%;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .projects1 img{
+        width: 130px;
+        position: relative;
+        top: 20px;
+        left: 8px;
+    }
+
+    .projects2{
+        background-color: white;
+        width: 60%;
+        height: 160px;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .projects2 h6{
+        color: rgb(214, 21, 31);
+        font-size: 10px;
+    }
+
+    .projects2 h1{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+}
+
+/* -------------------------CONTACT US------------------------- */
+/* -------------------------CONTACT US------------------------- */
+
+@media only screen and (max-width: 768px){
+    .contact{
+        background-color: black;
+        color: rgb(212, 212, 212);
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .contact h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .contact td img{
+        width: 15px;
+    }
+
+    .contact .contact2{
+        padding-top: 20px;
+    }
+    
+    .contact .contact2 img{
+        width: 24px;
+        padding: 7px;
+        background-color: rgb(49,109,195);
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .contact .contact2 .drimbbble img{
+        background: none !important;
+        width: 34px;
+        position: relative;
+        top: 5px;
+    }
+
+    .contact .contact3 fieldset{
+        border: 2px solid;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 70%;
+    }
+
+    .contact .contact3 legend{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .contact .contact3 input{
+        padding: 4px;
+        width: 200px;
+    }
+
+    .contact .contact3 .submit{
+        background-color: rgb(214, 21, 31);
+        color: white;
+        width: 75px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    .contact .contact3 textarea{
+        padding: 5px;
+    }
+}

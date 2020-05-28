@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+.header h1{
+    cursor: pointer;
+}
+
+.goto{
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    position: fixed;
+    width: 30px;
+}
+
+.goto2{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    width: 30px;
+}
+
+/* -------------------------HOME PAGE------------------------- */
+/* -------------------------HOME PAGE------------------------- */
+
+@media only screen and (min-width: 769px){
+
+    .homepage{
+        
+        height: 710px;
+        width: 100%;
+    }
+
+    .homepage .homeimage{
+        background-image: url(img/background\ T-02-01-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 20px;
+    }
+
+    .header h1{
+        color: rgb(214, 21, 31);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .header ul{
+        list-style-type: none;
+    }
+
+    .header li{
+        display: inline-block;
+        padding: 0 20px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .header li:hover{
+        border: rgb(214, 21, 31) solid 2px;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: rgb(214, 21, 31);
+        /* border-radius: 5px; */
+        transition: .7s;
+    }
+
+    .header #menu{
+        border: orange solid 2px;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .header #menu:hover{
+        border-color: rgb(214, 21, 31);
+    }
+
+    .section1{
+        float: right;
+        position: relative;
+        top: 250px;
+        right: 150px;
+    }
+
+    .section1 h1{
+        font-size: 45px;
+    }
+
+    .section1 button{
+        border: none;
+        background-color: rgb(214, 21, 31);
+        color: white;
+        font-size: 9px;
+        padding: 10px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .footer{
+        background-color: rgb(214, 21, 31);
+        color: white;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* -------------------------SERVICES------------------------- */
+/* -------------------------SERVICES------------------------- */
+
+@media only screen and (min-width: 769px){
+    .services{
+        height: 500px;
+        padding-top: 40px;
+        padding-left: 200px;
+    }
+
+    .services h6{
+        color: gray;
+    }
+
+    .services .cards{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+    }
+    
+    .services .playcard{
+        border: gray 2px solid;
+        box-shadow: 5px 5px 10px gray;
+        width: 250px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .services .playcard .image{
+        text-align: center;
+    }
+
+    .services .playcard .image img{
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .services .playcard h3{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard .text{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .services .playcard h2{
+        padding-top: 10px;
+    }
+
+    .services .playcard h6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .services h1{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard h6 img{
+        width: 6px;
+    }
+
+    .services .playcard h6{
+        color: rgb(214, 21, 31);
+    }
+
+    .services .playcard:hover{
+        border: rgb(214, 21, 31) solid 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: .7s;
+    }
+}
+
+/* -------------------------PROJECTS------------------------- */
+/* -------------------------PROJECTS------------------------- */
+
+@media only screen and (min-width: 769px){
+    .projects{
+        background-color: rgb(214, 21, 31);
+        height: 600px;
+    }
+
+    .projects0{
+        display: flex;
+        height: 400px;
+        width: 85%;
+        position: relative;
+        left: 110px;
+        top: 70px;
+    }
+
+    .projects1{
+        background-color: rgb(231, 42, 52);
+        width: 350px;
+        text-align: center;
+    }
+
+    .projects2{
+        background-color: white;
+        width: 500px;
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+    
+    .projects1 img{
+        width: 300px;
+        position: relative;
+        top: 45px;
+        left: 13px;
+        padding: 0;
+    }
+
+    .projects2 h6{
+        color: rgb(214, 21, 31);
+    }
+
+    .projects2 h1{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+}
+
+/* -------------------------CONTACT US------------------------- */
+/* -------------------------CONTACT US------------------------- */
+
+@media only screen and (min-width: 769px){
+    .contact{
+        background-color: black;
+        color: rgb(212, 212, 212);
+        padding-bottom: 30px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact td{
+        padding-top: 10px;
+    }
+    
+    .contact td img{
+        width: 15px;
+    }
+    
+    .contact .contact2 img{
+        width: 24px;
+        padding: 7px;
+        background-color: rgb(49,109,195);
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .contact .contact2 .drimbbble img{
+        background: none !important;
+        width: 34px;
+        position: relative;
+        top: 5px;
+    }
+
+    .contact .contact3 fieldset{
+        border: 2px solid;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contact .contact3 legend{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .contact .contact3 input{
+        padding: 4px;
+    }
+
+    .contact .contact3 .submit{
+        background-color: rgb(214, 21, 31);
+        color: white;
+        font-weight: bold;
+        width: 75px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    .contact .contact3 textarea{
+        padding: 5px;
+    }
+}
