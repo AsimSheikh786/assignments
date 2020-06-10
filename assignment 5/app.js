@@ -296,17 +296,23 @@ document.write("<br/>")
 
 //TASK : 6
 
-
-
-
-
-
-
+var math= +prompt("Enter your Math marks out of 100");
+var english= +prompt("Enter your english marks out of 100");
+var science= +prompt("Enter your science marks out of 100");
+var total=300
+var oMarks = math+english+science;
+var per= (oMarks/total)*100;
+document.write("<h1>Mark Sheet</h1> <br/>");
+document.write(
+    "<table> <tr> <td><b>Subjects</b></td> <td><b>Total Marks</b></td> <td><b>Obtained Marks</b></td> <td><b>Percentage</b></td> </tr>   <tr> <td>Math</td> <td>100</td> <td>"+math+"</td> <td>"+math+"%</td> </tr>   <tr> <td>English</td> <td>100</td> <td>"+english+"</td> <td>"+english+"%</td> </tr>     <tr> <td>Science</td> <td>100</td> <td>"+science+"</td> <td>"+science+"%</td> </tr>  <tr> <td></td> <td><b>300</b></td> <td><b>"+oMarks+"</b></td> <td><b>"+per+"%</b></td> </tr> <br/><br/>"
+);
 
 
 
 // ------------JAVA SCRIPT CHAPTER 9-11 PRACTICE ASSIGNMENT------------
 // ------------JAVA SCRIPT CHAPTER 9-11 PRACTICE ASSIGNMENT------------
+
+//TASK : 1
 
 var city=prompt("Enter city name");
 if(city=="karachi"){
@@ -315,12 +321,16 @@ if(city=="karachi"){
     alert("Welcome to the "+city);
 }
 
+//TASK : 2
+
 var gender=prompt("Enter your gender");
 if(gender=="female"){
     alert("Good Morning Ma’am");
 }else{
     alert("Good Morning Sir");
 }
+
+//TASK : 3
 
 var color=prompt("Enter color of road traffic signal");
 if(color==="red"){
@@ -333,12 +343,16 @@ if(color==="red"){
     alert("Your color is incorrect");
 }
 
+//TASK : 4
+
 var fuel=prompt("Enter fuel quantity in litres");
 if(fuel<=0.25){
     alert("Please refill the fuel in your car");
 }else{
     alert("No need to refill the fuel rightnow");
 }
+
+//TASK : 5
 
 var a = 4;
 if (++a === 5){
@@ -396,6 +410,8 @@ if("car" > "cat"){
     alert("cat is smaller than car");
 }
 
+//TASK : 6
+
 var math= +prompt("Enter your Math marks out of 100");
 var english= +prompt("Enter your english marks out of 100");
 var science= +prompt("Enter your science marks out of 100");
@@ -415,6 +431,8 @@ if(per>=80){
     document.write("Fail <br/><br/>");
 }
 
+//TASK : 7
+
 var a=2;
 var b= +prompt("A Secret Number Game","Enter your secret number from 1 to 10");
 if(b==2){
@@ -427,6 +445,8 @@ if(b==2){
     alert("Sorry! Your answer is incorrect");
 }
 
+//TASK : 8
+
 var d=+prompt("Enter your number");
 var e= d%3
 if (e==0){
@@ -435,6 +455,8 @@ if (e==0){
     alert("Your number is not divisible by 3");
 }
 
+//TASK : 9
+
 var g=+prompt("Enter your number");
 var h= d%2
 if (h==0){
@@ -442,6 +464,8 @@ if (h==0){
 }else {
     alert("Your number is Odd number");
 }
+
+//TASK : 10
 
 var a= +prompt("Enter temperature in C'");
 if(a>=40){
@@ -453,6 +477,8 @@ if(a>=40){
 }else{
     alert("OMG! Today’s weather is so Cool");
 }
+
+//TASK : 11
 
 var a= +prompt("Enter your First number");
 var b= prompt("Enter your Operator");
@@ -481,9 +507,9 @@ if(b==="+"){
 
 // ------------JAVA SCRIPT CHAPTER 12-13 PRACTICE ASSIGNMENT------------
 // ------------JAVA SCRIPT CHAPTER 12-13 PRACTICE ASSIGNMENT------------
-var n=0123456789;
-var al="abcdefghijklmnopqrstuvwxyz";
-var alf="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// var n=0123456789;
+// var al="abcdefghijklmnopqrstuvwxyz";
+// var alf="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 
 // var num=prompt("Enter an number then I will check it's positive or negative or zero");
@@ -505,12 +531,16 @@ var alf="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 //     }
 // }
 
+//TASK : 4
+
 var a = prompt("Enter a letter");
 if (a=="a"||a=="e"||a=="i"||a=="o"||a=="u"){
     alert("Your letter is Vowel");
 }else{
     alert("Your letter is not Vowel");
 }
+
+//TASK : 5
 
 var password = prompt("Enter your Password");
 var confirmPassword = prompt("Confirm your Password");
@@ -520,12 +550,16 @@ if (password==confirmPassword){
     alert("Your password is incorrect");
 }
 
+//TASK : 6
+
 var time = +prompt("Enter time in 24 hours");
 if (time<18){
     alert("Good day");
 }else{
     alert("Good evening");
 }
+
+//TASK : 7
 
 var time = +prompt("Enter time in 24 hours like 1500 or 1530");
 if (time<1200){
