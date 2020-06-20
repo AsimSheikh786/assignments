@@ -311,7 +311,9 @@ if(b<12){
 
 //TASK : 8
 
-
+var now = new Date();
+var laterDate = new Date ("December 31, 2021");
+alert("Now : "+now+"\nLater : "+laterDate);
 
 //TASK : 9
 
@@ -324,7 +326,64 @@ var d = c/(1000*60*60*24);
 var e = Math.round(d);
 alert(e+" days passed since 1st Ramadan, 2015.")
 
+//TASK : 10
 
+var a = new Date("January 1, 2020");
+var aMili = a.getTime();
+var b = new Date();
+var bMili = b.getTime();
+var c = bMili-aMili;
+var d = c/(1000);
+var e = Math.round(d);
+alert(e+" seconds passed since beginning of 2020.");
+
+//TASK : 11
+
+var a = new Date();
+var a2 = new Date();
+var b = a2.getHours();
+var c = b-1
+a2.setHours(c);
+alert("Now : "+a+"\n\n1 Hour ago : "+a2);
+
+//TASK : 12
+
+var a = new Date();
+var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var b = a.getMonth();
+var b2 = month[b];
+var c = a.getDate();
+var d = a.getFullYear();
+var e = d-100;
+var f = new Date(""+b2+""+c+", "+e);
+alert("Today : "+a+"\n\n100 years back : "+f);
+
+//TASK : 13
+
+var a = +prompt("Enter your age");
+var b = new Date();
+var c = b.getFullYear();
+var d = c-a;
+alert("Your age is "+a+ "\nYour birth year is "+d);
+
+//TASK : 14
+
+document.write("<h1> K-Electric Bill </h1><br>");
+document.write("Customer Name : ABC Customer<br>");
+var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var a = new Date();
+var b = a.getMonth();
+document.write("Month : "+month[b]+"<br>");
+var unit = 410;
+var perUnit = 16;
+var late = 350;
+var total = unit*perUnit;
+var lateTotal = total+late;
+document.write("Number of units : "+unit+"<br>");
+document.write("Charges per unit : "+perUnit+"<br><br>");
+document.write("Net amount payable (within due date) : "+total+"<br>");
+document.write("Late Payment surcharge : "+ late+"<br>");
+document.write("Gross amount payable (after due date) : "+lateTotal+"<br><br>");
 
 
 
