@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome To My Calculator</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="logo">
+            <img src="image/asim.png" alt="">
+        </div>
+
+        <div class="display">
+            <input id="result" type="text">
+        </div>
+
+        <div class="pad">
+            <button onclick="clearResult()" class="clear">CE</button>
+            <button onclick="getNum('%')" class="btnColor">%</button>
+            <button onclick="getNum('/')" class="btnColor">/</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('7')">7</button>
+            <button class="round" onclick="getNum('8')">8</button>
+            <button class="round" onclick="getNum('9')">9</button>
+            <button onclick="getNum('*')" class="btnColor">x</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('4')">4</button>
+            <button class="round" onclick="getNum('5')">5</button>
+            <button class="round" onclick="getNum('6')">6</button>
+            <button onclick="getNum('-')" class="btnColor">-</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('1')">1</button>
+            <button class="round" onclick="getNum('2')">2</button>
+            <button class="round" onclick="getNum('3')">3</button>
+            <button onclick="getNum('+')" class="btnColor">+</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('0')">0</button>
+            <button class="round" onclick="getNum('.')">.</button>
+            <button class="equalto" onclick="getResult()">=</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h5>Asim Web Design | Copyright &copy; 2020</h5>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
