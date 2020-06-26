@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title> Asim Sheikh | Welcome </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <title>Welcome To My Calculator</title>
 </head>
-
 <body>
 
-    <header>
-        <h1> <span id="web"> Web </span> and Mobile Hybrid App Development Course </h1>
-        <h2> Shaikh Muhammad Asim Qadri </h2>
-        <h2> Roll No : WM10555 </h2>
-    </header>
+    <div class="main">
 
-    <center>
-        <div id="container">
-		<button class="button"> <a href="calculator 1/index.html" target="-blank"> Calculator 1 <br>
-             	</a> </button>
-
-		<button class="button"> <a href="calculator 2/index.html" target="-blank"> Calculator 2 <br>
-             	</a> </button>
-
-		<button class="button"> <a href="calculator 3/index.html" target="-blank"> Calculator 3 <br>
-             	</a> </button>
+        <div class="logo">
+            <img src="image/asim.png" alt="">
         </div>
-    </center>
 
+        <div class="display">
+            <input id="result" type="text">
+        </div>
+
+        <div class="pad">
+            <button onclick="clearResult()" class="clear">CE</button>
+            <button onclick="getNum('%')" class="btnColor">%</button>
+            <button onclick="getNum('/')" class="btnColor">/</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('7')">7</button>
+            <button class="round" onclick="getNum('8')">8</button>
+            <button class="round" onclick="getNum('9')">9</button>
+            <button onclick="getNum('*')" class="btnColor">x</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('4')">4</button>
+            <button class="round" onclick="getNum('5')">5</button>
+            <button class="round" onclick="getNum('6')">6</button>
+            <button onclick="getNum('-')" class="btnColor">-</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('1')">1</button>
+            <button class="round" onclick="getNum('2')">2</button>
+            <button class="round" onclick="getNum('3')">3</button>
+            <button onclick="getNum('+')" class="btnColor">+</button>
+        </div>
+
+        <div class="pad">
+            <button class="round" onclick="getNum('0')">0</button>
+            <button class="round" onclick="getNum('.')">.</button>
+            <button class="equalto" onclick="getResult()">=</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h5>Asim Web Design | Copyright &copy; 2020</h5>
+    </div>
+    
 </body>
-
+<script src="app.js"></script>
 </html>
