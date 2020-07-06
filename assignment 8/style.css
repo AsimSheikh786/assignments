@@ -22,7 +22,7 @@ body {
     width: 500px;
     margin: 0 auto;
     border-radius: 15px;
-    height: 320px;
+    /* height: 320px; */
 }
 
 .image {
@@ -54,7 +54,7 @@ body {
 }
 
 .buttons {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-top: 20px;
 }
 
@@ -87,7 +87,7 @@ footer {
 
     .main {
         width: 320px;
-        height: 280px;
+        /* height: 300px; */
 
     }
 
@@ -109,6 +109,10 @@ footer {
         padding-right: 15px;
         padding-top: 7px;
         padding-bottom: 7px;
+    }
+
+    .buttons {
+        padding-bottom: 25px;
     }
 
     /* .buttons {
