@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asim Stop Watch | Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="image">
+            <img src="image/asim.png" alt="">
+        </div>
+        <div class="heading">
+            <h1>STOP WATCH</h1>
+        </div>
+        <div class="display">
+            <h1 id="min">0</h1>
+            <h1>:</h1>
+            <h1 id="sec">0</h1>
+            <h1>:</h1>
+            <h3 id="msec">0</h3>
+        </div>
+        <div class="buttons">
+            <button class="start2" disabled id="disable">Start</button>
+            <button class="start" id="show" onclick="start()">Start</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <h5>Asim Web Design | Copyright &copy; 2020</h5>
+    </footer>
+
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
