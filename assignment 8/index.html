@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body" id="body">
 
-    <div class="main">
+    <div class="main" id="main">
         <div class="image">
-            <img src="image/asim.png" alt="">
+            <div class="logo">
+                <img src="image/asim.png" alt="">
+            </div>
+            <div class="modes">
+                <img class="onMode" id="day" onclick="changeMode()" src="image/dayMode.png" alt="">
+                <img class="offMode" id="night" onclick="changeMode2()" src="image/nightMode.png" alt="">
+            </div>
+            
         </div>
         <div class="heading">
             <h1>STOP WATCH</h1>

@@ -43,3 +43,22 @@ function reset(){
     msecHeading.innerHTML = msec;
     pause();
 }
+
+var dayMode = document.getElementById("day");
+var nightMode = document.getElementById("night")
+var body = document.getElementById("body");
+var main = document.getElementById("main");
+
+function changeMode(){
+    dayMode.className = "offMode";
+    nightMode.className = "onMode"
+    body.className = "body2";
+    main.className = "main2";
+}
+
+function changeMode2(){
+    dayMode.className = "onMode";
+    nightMode.className = "offMode"
+    body.className = "body"
+    main.className = "main";
+}
