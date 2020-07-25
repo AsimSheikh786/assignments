@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asim Stop Watch | Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body" id="body">
+
+    <div class="main" id="main">
+        <div class="image">
+            <div class="logo">
+                <img src="image/asim.png" alt="">
+            </div>
+            <div class="modes">
+                <img class="onMode" id="day" onclick="changeMode()" src="image/dayMode.png" alt="">
+                <img class="offMode" id="night" onclick="changeMode2()" src="image/nightMode.png" alt="">
+            </div>
+            
+        </div>
+        <div class="heading">
+            <h1>TO-DO LIST</h1>
+        </div>
+        <div class="display">
+            <input type="text" name="" id="todoItem" placeholder="Type Here">
+            <button onclick="addTodo()">ADD</button>
+            <button class="del" onclick="deleteAll()">DELETE ALL</button>
+        </div>
+
+        <div class="list">
+            <ul id="list">
+
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <h5>Asim Web Design | Copyright &copy; 2020</h5>
+    </footer>
+
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
