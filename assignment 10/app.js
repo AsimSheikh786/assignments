@@ -2,8 +2,13 @@ var list = document.getElementById('list');
 
 function addTodo(){
     var todoItem = document.getElementById('todoItem');
+    var upper = todoItem.value[0];
+    var upper = upper.toUpperCase();
+    var lower = todoItem.value.slice(1).toLowerCase();
+    // console.log(todoItem.value.slice(1).toLowerCase())
+    var todoItem2 = upper+lower;
     var li = document.createElement('li');
-    var liText = document.createTextNode(todoItem.value);
+    var liText = document.createTextNode(todoItem2);
     li.appendChild(liText);
     list.appendChild(li);
     todoItem.value = "";
@@ -43,10 +48,11 @@ function deleteAll(){
 
 function editItem(e){
     var val = prompt('Enter updated value', e.parentNode.parentNode.firstChild.nodeValue);
+    var val1 = val[0].toUpperCase();
+    var val2 = val.slice(1).toLowerCase();
+    val = val1 + val2;
     e.parentNode.parentNode.firstChild.nodeValue = val;
 }
-
-
 
 
 
