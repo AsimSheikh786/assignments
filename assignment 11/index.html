@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App / Welcome</title>
+</head>
+
+<body>
+
+    <div id="start" class="start">
+        <input type="text" name="name" id="nameText" placeholder="Enter Your Name...">
+        <button onclick="names()">  START</button>
+    </div>
+
+    <div id="main" class="showOff">
+        <div class="time">
+            <h1><span class="increaseQuestions" id="increaseQuestions">1</span>/10</h1>
+            <h2>Name :</h2>
+            <h2 id="name">Name</h2>
+            <h1 class="timer"> <span id="min">14</span> : <span id="sec">00</span> </h1>
+        </div>
+
+        <center>
+            <div>
+                <h1>QUESTION : <span id="increaseQuestion">1</span></h1>
+                <h3 id="ques">Questions Here</h3>
+            </div>
+
+            <div id="options">
+                <p onclick="select(this)" id="option1" class="a">option 1</p>
+                <p onclick="select(this)" id="option2" class="a">option 2</p>
+                <p onclick="select(this)" id="option3" class="a">option 3</p>
+                <p onclick="select(this)" id="option4" class="a">option 4</p>
+            </div>
+
+            <div class="button">
+                <button id="nextBtn" onclick="next()">NEXT</button>
+                <button id="submitBtn" class="showOff" onclick="submit()">SUBMIT</button>
+            </div>
+        </center>
+    </div>
+
+    <div id="showScore" class="showOff">
+        <h1>Your Score Is : </h1>
+        <h1 id="scoreValue">10</h1>
+        <h1>Out of 10</h1>
+    </div>
+
+    <!-- <button>NEXT</button> -->
+
+</body>
+<script src="app.js"></script>
+
+</html>
