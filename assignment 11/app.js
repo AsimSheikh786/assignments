@@ -23,13 +23,90 @@ var questions = [
     },
     {
         id: 3,
-        question: "what is 2 power 8 ?",
+        question: "What is 2 power 8 ?",
         answer: "256",
         options: [
             "16",
             "64",
             "256",
             "200"
+        ]
+    },
+    {
+        id: 4,
+        question: "Which of the following device can store large amount of data ?",
+        answer: "Hard Drive",
+        options: [
+            "Floppy Disk",
+            "RAM",
+            "EPROM",
+            "Hard Drive"
+        ]
+    },
+    {
+        id: 5,
+        question: "Which one is not the type of ROM ?",
+        answer: "EROM",
+        options: [
+            "PROM",
+            "EROM",
+            "EPROM",
+            "EEPROM"
+        ]
+    },
+    {
+        id: 6,
+        question: "Which one is not a peripheral device ?",
+        answer: "Hard Drive",
+        options: [
+            "Keyboard",
+            "Mouse",
+            "Webcam",
+            "Hard Drive"
+        ]
+    },
+    {
+        id: 7,
+        question: "What is the square root of 121 ?",
+        answer: "11",
+        options: [
+            "11",
+            "14,641",
+            "12",
+            "60"
+        ]
+    },
+    {
+        id: 8,
+        question: "Solve this (2+4/2*8) ?",
+        answer: "18",
+        options: [
+            "24",
+            "0.375",
+            "18",
+            "2.25"
+        ]
+    },
+    {
+        id: 9,
+        question: "Solve this (2*3/2-4) ?",
+        answer: "-1",
+        options: [
+            "-3",
+            "1",
+            "-0.5",
+            "-1"
+        ]
+    },
+    {
+        id: 10,
+        question: "Which device is known as input device ?",
+        answer: "All of above",
+        options: [
+            "Keyboard",
+            "Mic",
+            "Scanner",
+            "All of above"
         ]
     }
 ]
@@ -116,7 +193,7 @@ function next() {
     quesNum++;
     console.log(score)
 
-    if (quesNum == "3") {
+    if (quesNum == "10") {
 
         nextBtn.className = "showOff"
         submitBtn.className = "blockBtn"
